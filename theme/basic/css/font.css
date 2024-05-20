@@ -1,0 +1,42 @@
+@charset "utf-8";
+@font-face
+{font-family: "Gmarket";
+font-style: normal;
+font-weight: 700;
+src: url(font/GmarketSans-Bold.woff2) format("woff2"),
+url(font/GmarketSans-Bold.woff) format("woff");
+}
+
+@font-face
+{font-family: "Gmarket";
+font-style: normal;
+font-weight: 500;
+src: url(font/GmarketSans-Medium.woff2) format("woff2"),
+url(font/GmarketSans-Medium.woff) format("woff");
+}
+
+@font-face
+{font-family: "Gmarket";
+font-style: normal;
+font-weight: 300;
+src: url(font/GmarketSans-Light.woff2) format("woff2"),
+url(font/GmarketSans-Light.woff) format("woff");
+}
+
+@font-face
+{font-family: "laundry";
+font-style: normal;
+font-weight: 700;
+src: 
+url(font/laundrygothic-Bold.woff) format("woff");
+}
+
+@font-face
+{font-family: "laundry";
+font-style: normal;
+font-weight: 400;
+src:
+url(font/laundrygothic-Regular.woff) format("woff");
+}
+
+
