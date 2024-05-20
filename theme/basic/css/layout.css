@@ -61,3 +61,19 @@
 .gnb_r .sitemap_ico span {display: block;width: 24px;height: 2px;margin: 0 0 4px;background: #444;transition: all .3s ease;}
 
 /* footer */
+#footer {text-align: center;color: #fff;}
+.ftop_wp {padding: 50px 0;background: #2d3035;}
+.flogo_box a {display: inline-flex;align-items: center;justify-content: center;}
+.flogo_box .logo_m{padding-right:16px;margin-right:16px;position: relative;}
+.flogo_box .logo_m::after {content: '';display: block;width: 1px;height: 50%;position: absolute;top: 50%;right: 0;transform: translateY(-50%);background: rgba(255,255,255,.3);}
+.ftop_wp .f_m_box {padding-top: 35px;}
+.ftop_wp .f_m_box .dp_flex {justify-content: center;}
+.ftop_wp .f_m_box .dp_flex li {margin:0 16px;position: relative;}
+.ftop_wp .f_m_box .dp_flex li::after {content: '';display: block;width: 1px;height: 50%;position: absolute;top: 3px;right: -16px;background: rgba(255,255,255,.3);}
+.ftop_wp .f_m_box .dp_flex li:last-child::after {display: none;}
+.ftop_wp .f_b_box {padding-top: 10px;}
+.ftop_wp .f_b_box  .dp_flex {justify-content: center;}
+.ftop_wp .f_b_box .dp_flex li {margin:0 16px;position: relative;}
+.ftop_wp .f_b_box .dp_flex li::after {content: '';display: block;width: 1px;height: 50%;position: absolute;top: 3px;right: -16px;background: rgba(255,255,255,.3);}
+.ftop_wp .f_b_box .dp_flex li:last-child::after {display: none;}
+.fbottom_wp {background: #1b2028;padding: 25px 0 20px;}

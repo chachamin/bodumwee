@@ -163,16 +163,18 @@ $(document).ready(function(){
 		$(this).parent('li').find('a.more').css('display','inline-flex');
 		$(this).parent('li').siblings('li').find('a.more').css('display','none');
 	});
-// -------------------------- 관련사이트 --------------------------
-	$(".footlink").click(function(){
-		$(this).parent().toggleClass("cur").siblings().removeClass("cur");
-		$(this).parent().children("ul").stop().slideToggle();
-		$(this).siblings().children("ul").stop().slideUp();
-	});
 
-	$("#container,.b_logo").on('focusin',function(){
-		$(".related_site").children("ul").fadeOut()
-	});
+    
+// -------------------------- 관련사이트 --------------------------
+	// $(".footlink").click(function(){
+	// 	$(this).parent().toggleClass("cur").siblings().removeClass("cur");
+	// 	$(this).parent().children("ul").stop().slideToggle();
+	// 	$(this).siblings().children("ul").stop().slideUp();
+	// });
+
+	// $("#container,.b_logo").on('focusin',function(){
+	// 	$(".related_site").children("ul").fadeOut()
+	// });
 
 // -------------------------- Gnb 열기/닫기 --------------------------
     $(".gnb_dep1").mouseenter(function(){
