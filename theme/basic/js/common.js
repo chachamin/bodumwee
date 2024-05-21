@@ -2,7 +2,7 @@ $(document).ready(function(){
 	//  main_v_sd
 	$('.main_v_sd').slick({
 		autoplay: false,
-		dots: false,
+		dots: true,
 		pauseOnDotsHover: false,
 		pauseOnHover: false,
 		speed: 600,
@@ -22,37 +22,30 @@ $(document).ready(function(){
 			}
 		  ]	
 	});
-	//  m_allim_sd
-	$('.m_allim_sd').slick({
-		autoplay: false,
-		dots: false,
-		pauseOnDotsHover: false,
-		pauseOnHover: false,
-		speed: 600,
-		arrows: false,
-		autoplaySpeed: 5000,
-		fade: false,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		infinite: true,
-		cssEase: 'linear',
-		responsive: [
-			{
-			  breakpoint: 768,
-			  settings: {
-				centerMode: true,
-				slidesToShow: 1
-			  }
-			},
-			{
-			  breakpoint: 520,
-			  settings: {
-			   centerMode: false,
-				slidesToShow: 1
-			  }
-			}
-		  ]
-	});
+
+	//m_allim_sd
+	$('.m_allim_sd').on('init', function(event, slick) {
+		$(this).siblings('.slick-controls').children('.slick-nav').children('.slick-count').append('<span class="current fw_3"></span> · <span class="total"></span>');
+		$('.current').text(slick.currentSlide + 1);
+		$('.total').text(slick.slideCount);
+	  })
+	  m_allim_sd = $('.m_allim_sd').slick({
+		  autoplay: true,
+		  dots: false,
+		  pauseOnDotsHover: false,
+		  pauseOnHover: false,
+		  speed: 600,
+		  arrows: false,
+		  autoplaySpeed: 5000,
+		  fade: false,
+		  slidesToShow: 1,
+		  slidesToScroll: 1,
+		  infinite: true,
+		  cssEase: 'linear'
+		  
+	  }).on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+		$('.current').text(nextSlide + 1);
+	  });
 
 	//  main_gall_sd
 	$('.main_gall_sd').slick({
