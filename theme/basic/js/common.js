@@ -314,6 +314,12 @@ $(document).ready(function(){
 		$mapBox.find(' > .img_list > div').eq($index).addClass('active');
 	});
 
+	// -------------------------- [서브] snb --------------------------
+	$(".snb_select").click(function(){
+		$(this).toggleClass("on");
+		$(this).parent().children("ul").stop().slideToggle();
+		$(this).parent().siblings().children("ul").stop().slideUp();
+	});
 
 });
 
