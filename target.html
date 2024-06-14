@@ -182,111 +182,72 @@
                     <div class="sub_title">
                         <!-- 페이지 명 -->
                         <h3 class="typo ">
-                            <span class="fw_3">오시는길</span>
+                            <span class="fw_3">대상안내</span>
                         </h3>
                         <!-- // -->
                     </div>
                     <div class="sub_content">
-                        <div class="directions">
+                        <div class="target_wp">
                             <div class="inner">
                                 <div class="sub_sec sec01">
-                                    <div class="map_wp dp_flex">
-                                        <div class="map_api_box">
-                                            <!-- * 카카오맵 - 지도퍼가기 -->
-                                            <!-- 1. 지도 노드 -->
-                                            <div id="daumRoughmapContainer1716445222646" class="root_daum_roughmap root_daum_roughmap_landing w100p"></div>
-
-                                            <!--
-                                                2. 설치 스크립트
-                                                * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
-                                            -->
-                                            <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
-
-                                            <!-- 3. 실행 스크립트 -->
-                                            <script charset="UTF-8">
-                                                new daum.roughmap.Lander({
-                                                    "timestamp" : "1716445222646",
-                                                    "key" : "2jf56",
-                                                    "mapHeight" : "420"
-                                                }).render();
-                                            </script>
-                                        </div>
-                                        <div class="img_box">
-                                            <img src="/theme/basic/img/sub_directions_01.jpg" alt="국립나주병원 보듬Wee 센터">
-                                        </div>
+                                    <div class="h4 typo">이용대상</div>
+                                    <div class="con_box mt24">
+                                        <ul class="add_dot gy_dot">
+                                            <li>광주광역시교육청 관내 서부권역 초·중·고 재학생 중 심리·정서적 어려움으로 상담 및 치료가 필요한 학생</li>
+                                        </ul>
+                                        <ul class="sec_col col_3 target_list mt8">
+                                            <li class="ico_box ico_40">
+                                                <div class="ico">
+                                                    <img src="/theme/basic/img/ico_target_01.png" alt="">
+                                                </div>
+                                                <div class="body_1">우울, 불안 등 정서문제로 학교생활의 부적응을 겪는 학생</div>
+                                            </li>
+                                            <li class="ico_box ico_40">
+                                                <div class="ico">
+                                                    <img src="/theme/basic/img/ico_target_02.png" alt="">
+                                                </div>
+                                                <div class="body_1">학교 폭력 가·피해, 아동학대 등으로 적극적인 치료가 필요한 학생</div>
+                                            </li>
+                                            <li class="ico_box ico_40">
+                                                <div class="ico">
+                                                    <img src="/theme/basic/img/ico_target_03.png" alt="">
+                                                </div>
+                                                <div class="body_1">정신건강의학과 전문가의 조기 개입이 필요한 학생</div>
+                                            </li>
+                                        </ul>
+                                        <p class="red mt8">* 안전 문제로 자·타해 위험이 있거나 두드러진 행동 문제가 있는 학생은 위탁대상에서 제외</p>
                                     </div>
+                                </div>
+                                <div class="sub_sec sec02">
+                                    <div class="h4 typo">서비스 신청 방법</div>
+                                    <ul class="sec_col col_3 ser_stpe mt24">
+                                        <li>
+                                            <div class="in_box p_r">
+                                                <div class="num">01</div>
+                                                <p class="body_3">홈페이지 <span class="ud_line">의뢰서 등록</span>에서 접수를 먼저 합니다</p>
+                                                <div class="btn_box">
+                                                    <a href="" class="btn btn_s">의뢰서등록 바로가기 <span class="ico"></span></a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="in_box p_r">
+                                                <div class="num">02</div>
+                                                <p class="body_3">접수가 완료되면 <span class="ud_line">담당자</span>가 접수 순수대로 <span class="ud_line">전화 연락</span>을 드립니다</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="in_box p_r">
+                                                <div class="num">03</div>
+                                                <p class="body_3"><span class="ud_line">전화 상담 후</span> 상담 내용에 따라 <span class="ud_line">상담 스케줄에서 확인</span> 가능합니다</p>
+                                                <div class="btn_box">
+                                                    <a href="" class="btn btn_s">상담스케줄 바로가기 <span class="ico"></span></a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
                                 </div>
                                 
-                                <div class="sub_sec sec02">
-                                    <div class="sec_leftbox">
-                                        <div class="titbox">
-                                            <div class="h4 typo">국립나주병원 보듬Wee센터</div>
-                                        </div>
-                                        <div class="con_box">
-                                            <div class="in_box">
-                                                <div class="h6 fw_1">주소</div>
-                                                <div class="dp_flex add_wp">
-                                                    <div class="body_2 addr">(우, 61980) 광주광역시 서구 상무대로 1088-1 1층</div>
-                                                    <div class="btn_box">
-                                                        <a href="#" class="btn_s bg_green">지도크게보기 ↗</a>
-                                                        <a href="#" class="btn_s bg_blue">길찾기 ↗</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="in_box hr_t">
-                                                <div class="h6 fw_1">연락처</div>
-                                                <div class="dp_flex num_wp">
-                                                    <div class="body_2 tel">TEL : 062-446-0406</div>
-                                                    <div class="body_2 fax">FAX : 062-446-0415</div>
-                                                </div>
-                                            </div>
-                                            <div class="in_box hr_t">
-                                                <div class="h6 fw_1">교통안내</div>
-                                                <div class="tb_wp scl_x">
-                                                    <div class="notice">테이블을 양 옆으로 스크롤 해주세요</div>
-                                                    <table class="basic_tb t_a_c">
-                                                        <caption>국립나주병원 보듬Wee센터 교통안내</caption>
-
-                                                        <thead>
-                                                            <tr>
-                                                                <th>대중교통</th>
-                                                                <th>노선</th>
-                                                                <th>하차</th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>버스</td>
-                                                                <td>송정19, 지원56, 광역160</td>
-                                                                <td>서석고 하차</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>버스</td>
-                                                                <td>수완12, 지원25, 지원56</td>
-                                                                <td>상공회의소 하차 (도보 8분)</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>버스</td>
-                                                                <td>매월26, 송암31</td>
-                                                                <td>화정사거리 하차 (도보 8분)</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>지하철</td>
-                                                                <td>광주지하철 1호선</td>
-                                                                <td>농성역 하차 → 3번출구 (도보 3분)</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>지하철</td>
-                                                                <td>광주지하철 1호선</td>
-                                                                <td>화정역 하차 → 1번출구 (도보 5분)</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>

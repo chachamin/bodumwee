@@ -1,0 +1,533 @@
+@charset "utf-8";
+
+@media (max-width: 1440px){
+
+	/* 기본 */
+	.inner{width:100%;padding-right:1.25rem;padding-left:1.25rem; margin:0 auto; box-sizing:border-box}	
+	.loca_nav{right:24px;bottom:24px;}
+	.logo_box {left:1.25rem;}
+	#header .gnb_r {right:1.25rem;}
+
+	/*메인*/
+	.main_vsual_wp .slick-nav a.slick-prev {left:1.25rem;}
+	.main_vsual_wp .slick-nav a.slick-next {right:1.25rem;}
+	.main_v_sd .item .txt_box {padding-left:3rem;}
+
+}
+
+@media (max-width: 1280px){
+	body,html{font-size:15px;
+	  -webkit-text-size-adjust : none;  /* 크롬, 사파리, 오페라 신버전 */
+	  -ms-text-size-adjust : none;  /* IE */
+	  -moz-text-size-adjust : none;  /* 파이어폭스 */
+	  -o-text-size-adjust : none;  /* 오페라 구버전 */
+	}
+
+	/* 기본 */
+	.logo_area h1 {padding-top: 5px;}
+	#gnb,.tnb,.gnb_r{display:none;}	
+	#header #mMenu{display:block;}
+	#header {height: 80px;}
+
+	/*서브 */
+	#sub{padding-top:80px;}
+	#sub #snb .snb_lev1 > a > p{margin-right:8px;min-width:auto;}
+
+	/* 메인 */
+
+
+	/* 장비예약 */
+	.rev_wrap form {width:100%;}
+	.rev_wrap .dp_flex {flex-wrap: wrap;}
+	.rev_wrap .rev_cont {width: 100%;}
+	.box_action {width: 100%;margin-top: 40px;}
+	.box_action .rev_info {position: relative;width: 100%;}
+	.rev_info .st_03 .time ul li {width: 20%;}
+
+}
+
+@media (max-width: 1024px){
+
+	/* 메인 */
+	.logo_box img {transform:scale(0.8);}
+	.main_v_sd .item.item1 .in_box::after {width:550px;background-size:100%;}
+	.main_v_sd .item.item2 .in_box::after {width:550px;background-size:100%;}
+	.msec_01 .sec_wp > * {padding:24px;}
+	.msec_02 .sec_wp {flex-wrap:wrap;}
+	.msec_02 .sec_wp .main_news_tab {width:calc(50% - 32px);}
+	.msec_02 .sec_wp .link_box {width:calc(50% - 32px);}
+	.msec_02 .sec_wp .main_allim {width:calc(100% - 32px);margin-top:32px;}
+	.m_allim .item {height:auto;padding:0 8px;}
+	.msec_03 .pro_wp {flex-wrap:wrap;}
+	.msec_03 .tit_wp {width:100%;text-align:center;}
+	.msec_03 .tit_wp .txt {margin-top:16px !important;margin-bottom:24px;}
+	.msec_03 .con_wp {width:100%;}
+	.msec_03 .con_wp .pro_sd {padding-left:0;}
+	.msec_03 .con_wp .pro_sd .item a {height:auto;}
+	.msec_03 .con_wp .slick-controls {bottom:-50px;}
+
+	/* 이용절차 */
+	.using_wp .using_step > li {width:calc((100% - 72px) / 3);}
+	
+	
+	
+
+	/* board */
+	.bogal_list > ul{margin:0 -8px;}
+	.bogal_list > ul > li{width:calc((100% - 64px) /3);margin:8px;}
+
+	.site_map {padding:0 40px;}
+	.site_map > li{width:calc((100% - 60px) / 3);margin:10px;}
+
+}
+
+@media (max-width: 960px){
+
+	/* 메인 */
+	.sec_01 .box_l {width:100%;}
+	.sec_01 .box_r {width:100%;padding:80px 0 0 0;}
+	.sec_02 .dp_flex {flex-wrap:wrap;}
+	.sec_02 .con_box.dp_flex > div {width:100%;}
+	.sec_02 .news_tab_box {margin-bottom:40px;}
+	.sec_05 .con_box {overflow-x:scroll;}
+	.sec_05 .related_site {width:150%;}
+
+	/*센터소개*/
+	.center_info .sec01 .in_box {background-image:none;}
+	.center_info .info_list.sec_col.col_2 > * {width: calc(100% - 24px);}
+	.center_info .info_box {flex-wrap: wrap;padding: 24px;}
+	.center_info .info_box > .icon {transform: scale(.7);margin: -7% -7% 0;}
+	.center_info .info_box .txt_box{width: 100%;padding-left: 0;}
+
+	/*의뢰서 등록 안내*/
+	.apply_wp .sec02 .step_list {margin-top:-16px;}
+	.apply_wp .sec02 .step_list li {width:calc((100% - 96px) / 3);}
+	.apply_wp .sec02 .step_list li .tit_box {padding-left:120px;text-align:left;}
+	.apply_wp .sec02 .step_list li .tit_box .ico {top:-20px;left:50px;}
+	.apply_wp .sec02 .step_list li .tit_box .point {margin-top: 1.5rem !important;}
+
+	/*마이페이지*/
+	.my_state_box .scl_x .notice {display:block;}
+	.my_state_box .tb_wrap.scl_x {width:100%;overflow-x:scroll;}
+	.my_state_box .tb_wrap.scl_x .basic_tb {width:1280px;}
+	.my_state_box .tb_wrap.scl_x .basic_tb td, .my_state_box .tb_wrap.scl_x .basic_tb th {padding:7px;}
+
+	/*상담예약*/
+	.rev_cont .box_l {width:100%;border-right:none;}
+	.rev_cont .box_r {width:100%;}
+	.rev_cont .box_r .time_wrap {border-top:1px solid #ddd;}
+	
+}
+
+@media (max-width: 820px){
+
+	/*메인*/
+	.main_v_sd .item {height:400px;}
+	.main_v_sd .item .in_box {height:400px;}
+	.main_v_sd .item .txt_box {padding-top:5.5rem;}
+	.main_v_sd .item.item1 .in_box::after {width: 400px;bottom: -180px;}
+	.main_v_sd .item.item2 .in_box::after {width: 420px;bottom: -156px;}
+	.msec_01 .sec_wp {flex-wrap:wrap;}
+	.msec_01 .main_quick {width:calc(100% - 32px);}
+	.msec_01 .main_num {width:calc(100% - 32px);margin-top:32px;}
+	.msec_02 .sec_wp .main_news_tab {width:calc(100% - 32px);}
+	.msec_02 .sec_wp .link_box {width:calc(100% - 32px);margin-top:32px;}
+	.link_box .con_box {height:auto;}
+
+	/* 센터장 인사말 */
+	.greeting_wp .bottom_a .sign_box {flex-wrap:wrap;}
+	.greeting_wp .bottom_a .sign_box > div {width:100%;text-align:right;}
+	.greeting_wp .bottom_a .sign_box .h5 {margin-left:0;}
+	
+	/*오시는 길*/
+	.directions .map_wp {flex-wrap:wrap;}
+	.directions .map_wp .map_api_box {width:100%;}
+	.directions .map_wp .img_box {width:100%;margin-top:32px;height:250px;vertical-align: middle;text-align:center;}
+	
+	/*이용절차*/
+	.using_wp .using_step > li {width:calc((100% - 48px) / 2);}
+
+	/*의뢰서 등록 안내*/
+	.apply_wp .sec02 .step_list li {width:calc((100% - 64px) / 2);}
+
+	/*의뢰서등록-폼*/
+	.app_form_wp .form_wp_m {width:100%;padding:0 1.25rem;}
+
+
+	/* 서브기본 */
+	.tb_wrap {width: 100%;overflow-x:scroll;margin-bottom:30px}  
+	.tb_wrap .basic_tb {width:770px;}
+	.tb_wrap .notice{display:block;padding:10px;background:#fff8f7;color:#f44336;border-radius:4px;margin-bottom:4px;} 
+	.basic_tb thead th,.basic_tb tbody td, .basic_tb tbody th{padding:10px;}
+	.manager_wrap .inner .fl{float:none;}
+	.manager_wrap .inner .fr{margin-top:12px;padding-top:12px;float:none;border-top:1px solid rgba(0,0,0,.1);}
+	.manager_wrap ul li{margin:4px 0;}
+
+	/* board */
+	.bogal_list > ul{margin:0 -8px;}
+	.bogal_list > ul > li{width:calc((100% - 32px) /2);margin:8px;}
+	.board_view .sd_wp{padding:30px 0 10px;background:#fafafa;}
+	.board_view .view_sd {width:90%;}
+
+	.bo_write table colgroup col {width:100%;}
+	.bo_write table tr {display: flex;flex-wrap: wrap;text-align: left;align-items: center;border-bottom:1px solid #ddd;border: 1px solid #ddd;margin-bottom:4px;}
+   	.bo_write table th {display: block;border: 0;padding: 10px 4px;text-align: left;width: 100%;border-bottom: 1px solid #ddd;text-align:center;}
+	.bo_write table td {display: block;border: 0;padding: 16px 10px;text-align: left;width: 100%;}
+
+	/*교육 뷰*/
+	.pg_view .pg_t_con {flex-wrap: wrap;padding:20px;}
+	.pg_view .pg_t_con .box_l {width: 100%;}
+	.pg_tcont .l_box .no_img {min-height: 180px;}
+	.pg_view .pg_t_con .box_r {width: 100%;padding: 0;margin-left: 0;margin-top: 20px;}
+
+}
+
+@media (max-width: 768px){
+	/* 기본 */
+	#footer .foot_top .inner {flex-wrap:wrap;}
+	.foot_top .foot_l {width:100%;margin-bottom:20px;}
+
+	/*조직도*/
+	.org_wp .org_list {padding:10px;}
+	.org_list::before {height: calc(100% - 376px);top: 79px;}
+
+	/*오시는길*/
+	.sec_leftbox .titbox {width:100%;padding-right:0;margin-bottom: 24px;}
+	.sec_leftbox .con_box {width:100%;}
+
+	/*대상안내*/
+	.target_wp .sec01 .target_list .ico_box {width:calc((100% - 48px) / 2);}
+	.target_wp .ser_stpe li {width:calc((100% - 48px) / 2);}
+
+	/*의뢰서 등록 안내*/
+	.apply_wp .sec02 .step_list li .tit_box .ico {transform:scale(.7);left:-10px;}
+	.apply_wp .sec02 .step_list li .tit_box {padding-left:85px;}
+	.apply_wp .sec02 .step_list .radius_xl {height:125px;}
+	.apply_wp .sec02 .step_list li .tit_box .point {margin-top: 0.75rem !important;}
+
+	/*의뢰서 등록*/
+	.app_list > li {width:100%;}
+
+    /*센터소개*/
+    .center_info .fac_list {flex-wrap: wrap;}
+    .center_info .fac_list li {width:calc((100% - 48px) / 2);}
+
+
+	/* 서브 */
+	.snb_dep3{overflow-x:auto;white-space:nowrap;display:block;}
+	.snb_dep3 li{display:inline-block;}
+
+
+
+
+	/* 공간 리스트 */
+	.bogal_list .sp_list > li {flex-wrap: wrap;}
+	.bogal_list > ul > li a {width: 100%;}
+	.bogal_list .sp_list > li .img_box {width: 100%;}
+	.bogal_list .sp_list > li .img_box  img {width: 100%;height: auto;object-fit: cover;}
+	.bogal_list .sp_list > li .text_box {width: 100%;margin-left: 0;}
+	.bogal_list .sp_list.col2 > li {width:100%;}
+
+}
+
+@media (max-width: 720px){
+	/*검색*/
+	.board_search {background:transparent;flex-wrap:wrap;padding:0;margin-bottom:24px;}
+	.board_search > div {float:none;}
+	.board_search .search_form {width: 100%; order: -1; padding: 12px; background: #F6F8FA; border-radius: 12px;}
+	.board_search .total{width: 100%;text-align: left;margin-top: 20px;height:unset;line-height:unset;}
+	
+}
+
+
+@media (max-width: 680px){
+
+	/* 메인 */
+	.main_v_sd .item.item1 .in_box::after {width: 300px;bottom: -180px;}
+	.main_v_sd .item.item2 .in_box::after {width: 349px;bottom: -140px;}
+
+	/* 센터장 인사말 */
+	.greeting_wp .top_a {padding:24px;}
+	.greeting_wp .top_a img {transform: scale(.7);margin: 0 -10% 0;}
+	.greeting_wp .bottom_a {padding:30px 24px;}
+
+	/*조직도*/
+	.org_list::before {height: calc(100% - 447px);}
+	.org_list .org_item {width:240px;}
+	.org_list .org_c .box_r::before {width: calc(100% - 220px);}
+	.org_list .org_item_s {max-width:240px;flex: unset;width:240px;padding-top:0;}
+	.org_list .org_d > ul > .org_d_l > ul {flex-wrap:wrap;}
+	.org_list .org_d .org_d_l > ul li.ois_1::before {display:none;}
+	.org_list .org_d .org_d_l > ul li.ois_2::before {display:none;}
+	.org_list .org_d .org_d_l > ul li::after {display:none;}
+	.org_list .org_d .org_d_r > ul li::after {display:none;}
+
+	/*이용절차*/
+	.using_wp .using_step > li {width:calc(100% - 24px);}
+	.using_wp .using_step .in_box .txt {min-height:unset;}
+
+	/*프로그램 안내*/
+	.pro_guid_wp .scl_x .notice {display:block;}
+	.pro_guid_wp .tb_wp {width: 100%;overflow-x: scroll;margin-bottom: 30px;font-size: 1rem;}
+	.pro_guid_wp .tb_wp table {width: 820px;}
+	.pro_guid_wp .pro_tp_list > li {width:calc((100% - 48px) / 2);}
+
+	/*의뢰서 등록*/
+	.snb_dep3_wp ul {overflow-x:auto;}
+	.snb_dep3_wp ul li a {display: inline-flex;align-items: center;justify-content: center;line-height: 1.125rem;width: 100%;padding: 0 8px;}
+	.apply_wp .sec01 .radius_xl {flex-wrap:wrap;}
+	.apply_wp .sec01 .radius_xl .ico {width:84px;height:84px;margin-bottom:20px;}
+	.apply_wp .sec01 .radius_xl .txt_box {width:100%;padding-left:0;}
+	
+	/*검색*/
+	.board_search .search_input_wrap input, .board_search #searchQuery[type="text"] {width:calc(100% - 52px);}
+	.board_search select{width:100%;padding:0 10px; padding-right:20px;min-width:auto;margin-bottom:4px;}
+	.board_search .search_input_wrap {display:block;width:100%;}
+	.board_search .search_form{float:left;width:100%;}
+
+	/*마이페이지*/
+	.my_state_box .tb_wrap.scl_x .basic_tb {width:1000px;}
+
+	/* 서브기본 */	
+	.tb_wrap .basic_tb {width:680px;}
+	.tb_wrap .notice{display:block;padding:10px;background:#fff8f7;color:#f44336;border-radius:4px;margin-bottom:4px;} 
+	.basic_tb thead th,.basic_tb tbody td, .basic_tb tbody th{padding:8px;}
+
+	/* 서브 */
+	.side_sd_wp .side_sd a{margin:0 4px;}
+
+	.sec_leftbox,.traffic .t_line_box ul {flex-wrap:wrap;}
+	.sec_leftbox .tit_box,
+	.sec_leftbox .con_box{width:100%;padding-left:0;}
+	.sec_leftbox .tit_box .heading_3{margin-bottom:32px;}
+
+	/* 게시판 */
+	.bogal_list_wrap .btn_box{margin-top:20px;}
+	.bo_table tbody td, .bo_table tbody th{padding:12px 12px}
+	.bo_table tbody td.date{word-break: break-all;}
+	.ask_map_info .dp_flex,.tour_call .sec02 .con_box,.bo_view_wp .bo_view_top .in_box{flex-wrap:wrap;}
+	.ask_map_info .dp_flex > *{width:100%;}
+
+	.bogal_list > ul > li,.bo_view_wp .bo_view_top .in_box > *{width:100%;}
+	
+	.bogal_st2.bogal_list > ul > li .img_box{height:auto;}
+	
+	.bo_view_wp .bo_view_top{padding:24px;}
+	.bo_view_wp .bo_view_top .in_box > *{margin:16px 0;}
+	.bo_view_wp .view_sd .item, .one_pg .img_box .item{height:240px;}
+
+	.bo_table{border-top:none;}
+	.bo_table thead th{display:none;}
+	.bo_table tbody tr{display:flex;flex-wrap:wrap;border:1px solid #ddd;border-radius:14px;text-align:left;padding:12px;margin-bottom:12px;align-items:center;}
+	.bo_table tbody td{display:block;border:0;width:auto;padding:6px 4px;}
+	.bo_table tbody td.cate,
+	.bo_table tbody td.subject{width:100%;}
+	.bo_table tbody td.subject{font-size:1rem;font-weight:700;}
+	.bo_table .notice_tr{background:rgb(255, 253, 253);border:1px solid #e9554c;}
+	.cate span{padding:6px 8px;font-size:.875rem;min-width:auto;}
+
+	.info_box .bo_w_table colgroup col {width:100%;}
+	.info_box .bo_w_table tr {display: flex;flex-wrap: wrap;text-align: left;align-items: center;border-bottom:1px solid #ddd;border: 1px solid #ddd;margin-bottom:4px;}
+    .info_box .bo_w_table th {display: block;border: 0;padding: 10px 4px;text-align: left;width: 100%;border-bottom: 1px solid #ddd;text-align:center;}
+	.info_box .bo_w_table td {display: block;border: 0;padding: 16px 10px;text-align: left;width: 100%;}
+
+	.view_con .sd_wrap {padding: 32px 8px;}
+	.bo_view_wp .view_sd .item, .view_sd .item a, .one_pg .img_box .item a {height: 240px;}
+	.board_view_body {padding:20px 0;}
+	.view_con .sd_wrap .view_sd {width:100%;}
+
+	/*사이트맵*/
+	.site_map > li {width: calc((100% - 40px) / 2);margin: 10px;}
+
+}
+
+@media (max-width: 560px){
+
+	/*기본*/
+	.h1{font-size:2.5rem;line-height:3.25rem;} /* 40px */
+	.h2{font-size:2.25rem;line-height:2.925rem;}/* 36px */
+	.h3{font-size:2rem;line-height:2.6rem;}/* 32px */
+	.h4{font-size:1.75rem;line-height:2.275rem;}/* 28px */
+	.h5{font-size:1.5rem;line-height:1.95rem;}/* 24px */
+
+	.h6{font-size:1.25rem;line-height:1.75rem;}/* 20px */
+	.stit_1{font-size:1.125rem;line-height:1.688rem;}/* 18px */
+	.stit_2{font-size:1rem;line-height:1.5rem;}/* 18px */
+
+	/* 메인 */
+	.main_sec + .main_sec {padding:60px 0;}
+	.main_v_sd .item .txt_box {width:100%;padding-top:4.5rem;}
+	.main_v_sd .item.item1 .in_box::after {width: 250px;bottom: -260px;}
+	.main_v_sd .item.item2 .in_box::after {width: 280px;bottom: -175px;}
+	.msec_01 .sec_wp > * {height:auto;}
+	.msec_01 .main_quick {flex-wrap:wrap;}
+	.msec_01 .main_quick .tit_box {width:100%;padding-bottom:20px;border-bottom:1px dashed #ddd;}
+	.msec_01 .qnav_box {width:100%;padding:10px 0;}
+	.msec_01 .qnav_box ul {flex-wrap:wrap;}
+	.msec_01 .qnav_box li {width:calc(100% / 3);margin:10px 0;}
+	.msec_03 .con_wp .pro_sd .item a {height:230px;}
+	.msec_03 .con_wp .pro_sd .item a .p_r {height:100%;}
+	.msec_03 .con_wp .pro_sd .item img {width:100%;}
+	.banner_sd .item {padding: 0px 8px;}
+	.banner_sd .item a {display:flex;align-items:center;}
+
+	/*서브*/
+	#snb > .inner  {padding-left: 0;padding-right: 0;}
+	#snb .snb > ul > li:not(:first-child) {min-width: 150px;}
+	#snb .snb_lev1 > a {padding: 0px 5px;}
+	#snb .snb_unit a {margin-right: 20px;}
+
+	/* 센터장 인사말 */
+	.greeting_wp .top_a {background-position:right 40% center;}
+	.greeting_wp .bottom_a .sec_col_l.col_2 > * {width:calc(100% - 32px);}
+
+	/* 조직도 */
+	.org_list .org_top > ul {flex-wrap:wrap;}
+	.org_list .org_top li {width:100%;}
+	.org_list .org_top li + li {margin-top:20px;}
+	.org_list .org_top::before {display:none;}
+	.org_list .org_c {justify-content:center;}
+	.org_list .org_c .box_r {width:100%;}
+	.org_list .org_c .box_r::before {display:none;}
+	.org_list .org_d > ul > li {padding:0 8px;}
+	.org_list .org_d .org_d_l > p.org_st1 {width:100%;}
+	.org_list .org_d .org_d_r > p.org_st1 {width:100%;}
+
+	/*의뢰서 등록 안내*/
+	.apply_wp .sec02 .step_list li {width:calc(100% - 40px);}
+
+	/*의뢰서 등록 - 폼*/
+	.app_form_wp .form_wp_m {padding:0;}
+	.app_form_wp .cure_list li {padding-left:0;}
+
+	/*상담예약*/
+	.rev_wrap {margin:0 -10px;}
+	.rev_cont .h6, .rev_cont .cla_box, .rev_cont .time_ck_box, .rev_cont .decide_box {padding:10px;}
+	.rev_cont .box_r .btn_box {padding:10px 10px 20px;}
+
+
+
+	/* 장비예약 */
+	.time_ck_box ul li {width: calc(50% - 6px);}
+	.time_ck_box ul li:nth-child(4n) {margin-right: 6px;}
+	.rev_info .st_03 .time ul li {width:33%;}
+	.resv_type_wrap .ret_tabs .type_select {top: 100px;}
+	.cal_slect_area {padding: 24px 0;}
+}
+
+
+@media (max-width: 480px){
+
+	/*메인*/
+	.ftop_wp .f_b_box > ul {flex-wrap:wrap;}
+	.ftop_wp .f_b_box .dp_flex li {width:100%;text-align:center;margin:0 0;margin-bottom:10px;}
+	.ftop_wp .f_b_box .dp_flex li::after {display:none;}
+
+	/*대상안내*/
+	.target_wp .sec01 .target_list .ico_box {width:calc(100% - 24px);}
+	.target_wp .ser_stpe li {width:calc(100% - 24px);}
+	
+	/*프로그램 안내*/
+	.pro_guid_wp .tb_wp table {width: 600px;}
+	.pro_guid_wp .pro_tp_list > li {width:calc(100% - 24px);}
+	.pro_guid_wp .pro_tp_list .txt {min-height:unset;}
+
+	/*의뢰서 등록*/
+	.app_list > li {padding:24px;}
+
+	/*의뢰서 등록 - 폼*/
+	.app_form_wp .phone_chk {flex-wrap:wrap;}
+	.app_form_wp .phone_chk input {width:100%;}
+	.app_form_wp .phone_chk .btn {width:100%;margin-left:0 !important;margin-top:4px;}
+	.form_wp_m .sec02 .form_box .col_2 > * {width:calc(100% - 24px);}
+
+
+
+	.board_view .sd_wp .view_sd .item{height:240px;}
+	.bogal_list > ul > li .img_box .in_box{height:230px;}
+
+}
+
+
+@media (max-width: 425px){
+	/* 메인 */
+	.main_v_sd .item.item1 .in_box::after {display:none;}
+	.main_v_sd .item.item2 .in_box::after {display:none;}
+	.main_vsual_wp .slick-nav a.slick-prev {left:0}
+	.main_vsual_wp .slick-nav a.slick-next {right:0}
+	.link_box .con_box .btn_list li a {width: 150px;}
+
+    /*센터소개*/
+    .center_info .fac_list li {width:calc(100% - 24px);}
+
+	/* 조직도 */
+	.org_list::before {height: calc(100% - 470px);}
+
+	/*오시는길*/
+	.directions .num_wp {flex-wrap:wrap;}
+	.directions .num_wp > div {width:100%;}
+	.directions .num_wp .tel {margin-right:0;margin-bottom:4px;}
+	
+	/*의뢰서 등록 - 폼*/
+	.form_wp_m .sec04 .custom_tb th .body_1 {font-size:1rem;}
+
+	/*게시글 뷰*/
+	.board_view_head .board_view_info {flex-wrap:wrap;}
+
+	/*상담예약*/
+	.rev_cal_table td, .rev_cal_table td.balnk_day {padding:5px;}
+	.rev_cal_table td .bg_disable {font-size:8px;}
+
+
+	
+
+	/* 장비예약 */
+	.rev_info .st_02 .roundbox .label {position: relative;margin-bottom: 20px;}
+	.rev_info .st_02 .roundbox .date {text-align: center;}
+	.rev_info .st_03 .time ul li {width: 100%;margin-right: 0;}
+	.rev_info .st_03 .time ul li::after {display: none;}
+
+	/*사이트맵*/
+	.site_map > li {width: 100%;margin: 0;}
+	
+}
+
+@media (max-width: 375px){
+	/* 메인 */
+	.main_v_sd .item .txt_box {padding-left:1rem;}
+	.link_box .con_box {background-size: 55%;}
+	.main_news_tab .tab_con_wp .n_list .more {top: -71px;right: -14px;}
+	.main_news_tab .tab_con_wp {padding:16px;}
+	.main_news_tab .tab_con_wp .n_list li a .date {width:25%;}
+	.link_box .con_box {padding:24px 16px;min-height:200px;}
+
+	/*조직도*/
+	.org_list::before {height: calc(100% - 494px);}
+
+	/*본인확인*/
+	.apply_wp .sec01 .radius_xl {padding:32px !important;}
+	.counsel_wp.app_chk .sec01 .radius_xl {padding:32px !important;}
+
+	/*의뢰서 등록 - 폼*/
+	.form_wp_m .sec04 .custom_tb .dis_list li {flex-wrap:wrap;}
+	
+	
+	/* 서브기본 */
+	.snb_wp{justify-content:start;} 
+
+}
+
+@media (max-width: 320px){	
+	/*조직도*/
+	.org_list .org_d .org_d_l > p.org_st1 {margin-bottom:0;}
+	.org_list .org_d .org_d_r > p.org_st1 {margin-bottom:0;}
+
+	/*공지사항-쓰기*/
+	.bo_write_wrap input[type="file"] {width:100%;}
+
+
+	/* 공간 리스트*/
+	.floor_box .floor_tit a {min-width: 100%;}
+}
+	
+	

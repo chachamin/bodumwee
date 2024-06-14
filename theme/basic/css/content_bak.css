@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/*레이아웃*/
+.sub_sec + .sub_sec {margin-top: 72px;}
+.sec_leftbox {border-top: 1px solid #E2E4E9;display: flex;flex-wrap: wrap;padding: 52px 0;}
+.sec_leftbox .tit_area {position: relative;width: 280px;padding-right: 40px;}
+.sec_leftbox .tit_area:before {content: '';position: absolute;top: -52px;left: 0;width: calc(100% - 50px);height: 1px;background: #595757;}
+.sec_leftbox .con_area {width: calc(100% - 280px);}
+.sec_leftbox .con_area .con_box {width: 100%;}
+.con_box + .con_box {margin-top: 40px;}
+
+.sub_content {padding-bottom: 100px;}
+.sub_content .stit_1 {font-weight: 500;margin-bottom: 16px;}
+
+.scl_x .noitce {display: none;padding: 10px;background: #fcedf4;color: #D10028;border-radius: 4px;margin-bottom: 4px;}
+
+.sub_content ul.add_dot li {position: relative;padding-left: 17px;margin-bottom: 7px;}
+.sub_content ul.add_dot li:last-child {margin-bottom: 0;}
+.sub_content ul.add_dot li::after {content: '';display: block;width: 5px;height: 5px;border: 2px solid #a627e5;border-radius: 50%;position: absolute;top: 3px;left: 0;}
+
+/* 기본아이콘 */
+.ico[class*='ico_']{width:24px;height:24px;background:url("../img/ir.png") no-repeat;}
+.ico.ico_blank{background-position:-55px -72px;}
+.ico.ico_blank_bk{background-position:-9px -72px}
+.ico.ico_blank_s{width:16px;height:16px;background-position:-103px -76px;}
+.ico.ico_call{background-position:-628px -257px;}
+.ico.ico_down{background-position:-523px -386px;}
+.ico.ico_map{background-position:-562px -386px;}
+
+/* 테이블 */
+.tb_wp{margin-top:8px;line-height:1.5rem;}
+.tb_wp .notice{display:none}
+
+.basic_tb {position:relative;margin:0px 0 14px;font-size:0.938rem;}
+.basic_tb:before{content:'';position:absolute;top:0;left:0;width:100%;height:1px;background:#121212;}
+.basic_tb thead th{padding:12px;border:1px solid #e1e1e1;text-align:center;font-weight:700;background: #f6f6f6;}
+.basic_tb tbody th{background: rgba(0,0,0,0.02);font-weight:500;text-align:center;font-weight:500;color:#121212;}
+.basic_tb tbody th > *,.custom_tb tbody th > *,.basic_tb3 tbody th > *{font-weight:500}
+.basic_tb tbody td,.basic_tb  tbody th{padding:12px;border:1px solid #e1e1e1;}
+.basic_tb td:first-child,.basic_tb th:first-child{border-left:0 !important;}
+.basic_tb td:last-child,.basic_tb th:last-child{border-right:0 !important;}
+
+.basic_tb2 {font-size:0.875rem; word-break:break-all;}
+.basic_tb2  thead th{padding:6px 2px;}
+.basic_tb2  tbody td,.basic_tb2  tbody th{padding:6px 4px;}
+
+.basic_tb3 {position:relative;margin:0px 0 14px;font-size:0.938rem;}
+.basic_tb3:before{content:'';position:absolute;top:0;left:0;width:100%;height:1px;background:#121212;}
+.basic_tb3 thead th{padding:12px;border:1px solid #d3d9df;text-align:center;font-weight:700;background: #f2f5f8;}
+.basic_tb3 tbody th{background: #f5f8fb;font-weight:500;text-align:center;font-weight:700;color:#363636;}
+.basic_tb3 tbody td,.basic_tb3  tbody th{padding:12px;border:1px solid #d3d9df;}
+
+.custom_tb {margin:0px 0 14px;font-size:0.938rem;border-collapse: separate;border-spacing: 0;overflow: hidden;border-radius: 8px;border:1px solid #d3d9df;}
+.custom_tb thead th{padding:10px;border-right:1px solid #dbd3df;text-align:center;font-weight:700;background: #f7f2f7;}
+.custom_tb thead th:last-child {border-right: none;}
+.custom_tb thead tr:not(:first-child) th{border-top:1px solid #e1e1e1;}
+.custom_tb tbody th{background: rgba(242,244,247,.3) !important;font-weight:700;text-align:center;font-weight:700;color:#363636;}
+.custom_tb tbody td,.custom_tb tbody th{padding:10px;border-top:1px solid #d3d9df;}
+.custom_tb tbody td:not(:last-child),.custom_tb tbody th:not(:last-child){border-right:1px solid #d3d9df;}
+
+.custom_tb2 {margin:0px 0 14px;font-size:0.938rem;}
+.custom_tb2 thead,.custom_tb2 th{position:relative;}
+.custom_tb2 thead:before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:#edeff1;border-radius:8px;font-weight:700;}
+.custom_tb2 thead th{padding:10px;text-align:center;font-weight:700;color:#0e3f78;}
+.custom_tb2 thead tr:not(:first-child) th{border-bottom:1px solid #ededed;}
+.custom_tb2 tbody th{font-weight:700;text-align:center;font-weight:700;color:#363636;}
+.custom_tb2 tbody td,.custom_tb2 tbody th{padding:10px;border-bottom:1px solid #ededed;}
+
+.tb_fix{table-layout: fixed;}
+.tb_st1 tbody th{background:transparent;}
+.tb_st1 tbody tr:nth-child(even){background:#f9fafb;}
+
+.tb_st2 thead th{background:#e4edef;color:#26868f;}
+.tb_st2 tbody th{background:rgba(228,237,239,.3);color:#26868f;}
+
+table tbody tr{transition:all .1s ease;}
+/* table tbody tr:not(.total):hover{background:#edf5ff !important;box-shadow:0px 0px 16px 4px rgba(0, 0, 0, 0.02);} */
+table tbody td{color:#343434}
+table a{font-weight:600}
+table tr.total{background: #f7f8fc;color: #195dae;font-weight:700;}
+
+/*오시는길*/
+.map_wp > div {border: 1px solid #ddd;border-radius: 15px;}
+.directions .map_wp {justify-content: space-between;}
+.directions .map_wp .map_api_box {width: calc((100% / 3 * 2) - 16px);height: 420px;overflow: hidden;}
+.map_api_box > div {width: 100%;height: 420px;}
+.map_api_box .root_daum_roughmap .map_border {display:none;}
+.map_api_box .root_daum_roughmap .wrap_btn_zoom button {height: 34px;}
+.directions .map_wp .img_box {width: calc((100% / 3) - 16px);}
+.directions .sec02 {margin-top: 40px;}
+.directions .sec02 .loca_info {justify-content: space-between;}
+.directions .sec02 .loca_info li {width: calc((100% - 64px) / 3);border: 1px solid #ddd;border-radius: 15px;padding: 32px;display: flex;}
+.directions .sec02 .icon_box {align-items: normal;}
+.directions .sec02 .txt_box {padding-left: 16px;}
+.directions .icon_box .ico {width: 40px;height: 40px;border-radius: 50%;margin-right: 7px;background: url(../img/ir.png) no-repeat #ebe8ff;}
+.directions .icon_box .ico.loca {background-position: -168px -28px;}
+.directions .icon_box .ico.tel {background-position: -242px -29px;}
+.directions .icon_box .ico.fax {background-position: -205px -27px;}
+.directions .sec03 .line_box {border-top: 1px solid #595757;margin-top: 16px;}
+.directions .sec03 .line_box .in_box{border-bottom: 1px solid #ddd;padding: 20px 0;}
+.directions .sec03 .icon_box {width: 120px;}
+.directions .sec03 .icon_box .ico {width: 120px; height: 120px;border-radius: 15px;}
+.directions .sec03 .txt_box {width: calc(100% - 120px);padding-left: 20px}
+
