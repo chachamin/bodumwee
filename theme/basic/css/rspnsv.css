@@ -180,6 +180,15 @@
 	.pg_tcont .l_box .no_img {min-height: 180px;}
 	.pg_view .pg_t_con .box_r {width: 100%;padding: 0;margin-left: 0;margin-top: 20px;}
 
+	/* 조직도 */
+	.org_list .org_item {width: 260px;}
+	.org_list .org_item_s {max-width: 260px;}
+	.org_list .org_st1 {width: 180px;}
+	.org_list .org_b {margin-top:140px;}
+	.org_list .abs {top: 200px;right: 10px;}
+	.org_list .org_a .abs::after {top: -125%;width: 100%;left: -43%;}
+	.org_wp .org_list::before {top:160px;height: calc(100% - 310px);}
+
 }
 
 @media (max-width: 768px){
@@ -252,7 +261,7 @@
 	.greeting_wp .bottom_a {padding:30px 24px;}
 
 	/*조직도*/
-	.org_list::before {height: calc(100% - 447px);}
+	/* .org_list::before {height: calc(100% - 447px);}
 	.org_list .org_item {width:240px;}
 	.org_list .org_c .box_r::before {width: calc(100% - 220px);}
 	.org_list .org_item_s {max-width:240px;flex: unset;width:240px;padding-top:0;}
@@ -260,7 +269,11 @@
 	.org_list .org_d .org_d_l > ul li.ois_1::before {display:none;}
 	.org_list .org_d .org_d_l > ul li.ois_2::before {display:none;}
 	.org_list .org_d .org_d_l > ul li::after {display:none;}
-	.org_list .org_d .org_d_r > ul li::after {display:none;}
+	.org_list .org_d .org_d_r > ul li::after {display:none;} */
+	.org_list .abs {right: auto;left: 50%;transform: translateX(-50%);z-index: 10;}
+	.org_list .org_a .abs::after {top: 50%;left: auto;right: -31%;width: 31%;}
+	.org_wp .org_list::before {top: 296px;height: calc(100% - 448px);}
+	
 
 	/*이용절차*/
 	.using_wp .using_step > li {width:calc(100% - 24px);}
@@ -382,7 +395,7 @@
 	.greeting_wp .bottom_a .sec_col_l.col_2 > * {width:calc(100% - 32px);}
 
 	/* 조직도 */
-	.org_list .org_top > ul {flex-wrap:wrap;}
+	/* .org_list .org_top > ul {flex-wrap:wrap;}
 	.org_list .org_top li {width:100%;}
 	.org_list .org_top li + li {margin-top:20px;}
 	.org_list .org_top::before {display:none;}
@@ -391,7 +404,22 @@
 	.org_list .org_c .box_r::before {display:none;}
 	.org_list .org_d > ul > li {padding:0 8px;}
 	.org_list .org_d .org_d_l > p.org_st1 {width:100%;}
-	.org_list .org_d .org_d_r > p.org_st1 {width:100%;}
+	.org_list .org_d .org_d_r > p.org_st1 {width:100%;} */
+	.org_wp .org_list::after {height: calc(100% - 100px);}
+	.org_list .org_e {justify-content: center;}
+	.org_list .org_e .box_r {width: 100%;}
+	.org_list .org_e .box_r::after {display: none;}
+	.org_list .org_a .abs::after {right: -48px;width: 48px;}
+	.org_wp .org_list::before {right:80px;}
+	.org_list .org_f > ul {flex-wrap: wrap;}
+	.org_list .org_f > ul > li {width: 100%;}
+	.org_list .org_f > ul > li .org_item {width: 260px;}
+	.org_list .org_f > ul > li::before {display: none;}
+	.org_list .org_f > ul::after {display: none;}
+	.org_list .org_f .org_st5::before {display: none;}
+	.org_wp .org_list::before {height: calc(100% - 420px);}
+	.org_list .org_st7{position: relative;}
+	.org_list .org_st7::after {content: '';display: block;width: 48px;height:1px;right: -48px;background: #cdd0d5;position: absolute;top: 50%;transform: translateY(-50%);}
 
 	/*의뢰서 등록 안내*/
 	.apply_wp .sec02 .step_list li {width:calc(100% - 40px);}
@@ -446,6 +474,9 @@
 	.board_view .sd_wp .view_sd .item{height:240px;}
 	.bogal_list > ul > li .img_box .in_box{height:230px;}
 
+	/*조직도*/
+	.org_wp .org_list::before {right: 40px;}
+
 }
 
 
@@ -461,7 +492,8 @@
     .center_info .fac_list li {width:calc(100% - 24px);}
 
 	/* 조직도 */
-	.org_list::before {height: calc(100% - 470px);}
+	/* .org_list::before {height: calc(100% - 470px);} */
+	.org_wp .org_list::before {right: 3%;}
 
 	/*오시는길*/
 	.directions .num_wp {flex-wrap:wrap;}
@@ -502,7 +534,9 @@
 	.link_box .con_box {padding:24px 16px;min-height:200px;}
 
 	/*조직도*/
-	.org_list::before {height: calc(100% - 494px);}
+	/* .org_list::before {height: calc(100% - 494px);} */
+	.org_list .org_a .abs::after {right: -24px; width: 24px;}
+	.org_list .org_st7::after {right: -24px; width: 24px;}
 
 	/*본인확인*/
 	.apply_wp .sec01 .radius_xl {padding:32px !important;}
